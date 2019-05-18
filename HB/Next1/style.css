@@ -1,0 +1,20 @@
+body {
+    font-family: "Comic Sans MS", sans-serif;
+    margin: auto;
+    align-items: center;
+}
+
+img, iframe {
+    box-shadow: 0 0 10px black;
+    border: 5px solid white;
+    border-radius: 10px;
+    opacity: 0.8;
+
+}
+
+iframe:hover {
+    opacity: 1.0;
+    filter: alpha(opacity=100); /* For IE8 and earlier */
+}
+
+
